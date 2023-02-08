@@ -18,11 +18,13 @@ body {
     background-attachment: fixed;
 }
 
+
 main {
     position: relative;
     height: 100vh;
 }
 
+/* configuração do telefone */
 section#telefone {
     position: absolute;
     top: 50%;
@@ -35,6 +37,7 @@ section#telefone {
     background:url(../imagens/frame-iphone.png) no-repeat;
 }
 
+/* configuração do iframe */
 iframe#tela {
     position: relative;
     top: 80px;
@@ -43,10 +46,12 @@ iframe#tela {
     height: 471px;
 }
 
+/* alinha os botões a direita */
 section#redes-sociais{
     text-align: right;
 }
 
+/* configurações dos botões */
 section#redes-sociais img{
     width: 50px;
     margin: 10px;
@@ -55,6 +60,7 @@ section#redes-sociais img{
     box-sizing: border-box;
 }
 
+/* Quando passar o mouse encima */
 section#redes-sociais img:hover{
     border: 2px solid rgba(255, 255, 255, 0.623);
     transform: translate(-3px, -3px);
